@@ -12,4 +12,4 @@ COPY nginx.conf /etc/nginx/nginx.conf
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo 'Asia/Shanghai' >/etc/timezone
 
 # 创建 /admin-fe-access.log ，对应到 nginx.conf
-CMD touch /admin-fe-access.log && nginx && tail /admin-fe-access.log -f
+CMD touch /admin-fe-access.log && nginx && tail -f /admin-fe-access.log 

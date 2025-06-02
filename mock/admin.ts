@@ -7,7 +7,7 @@ export default {
     'GET /api/admin/getUserInfo': {
         errno: 0,
         data: {
-            username: '啦啦啦',
+            username: '梦晚',
         },
         // errno: 1,
         // message: '未登录',
