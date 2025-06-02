@@ -66,14 +66,6 @@ export default [
         key: 'orderIndex',
     },
     {
-        title: '创建时间', // 需要 format ！！！
-        dataIndex: 'createdAt',
-        key: 'createdAt',
-        render: (d: string) => {
-            return formatTime(d)
-        },
-    },
-    {
         title: '最后发布时间', // 需要 format ！！！
         dataIndex: 'latestPublishAt',
         key: 'latestPublishAt',

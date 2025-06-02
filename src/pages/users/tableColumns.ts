@@ -41,14 +41,7 @@ export default [
         dataIndex: 'city',
         key: 'city',
     },
-    {
-        title: '注册时间',
-        dataIndex: 'createdAt',
-        key: 'createdAt',
-        render: (d: string) => {
-            return formatTime(d)
-        },
-    },
+
     {
         title: '最后登录时间',
         dataIndex: 'latestLoginAt',
